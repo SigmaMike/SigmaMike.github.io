@@ -4,6 +4,7 @@
 
 
 <nav >
+  
   <a href="/">Hem</a>
   <a href="/memory">Memory</a>
   <a href="/telltale">Telltale</a>
@@ -13,6 +14,8 @@
     href="https://github.com/lisaviktorsson/lisaviktorsson.github.com"
     >GitHub</a
   >
+
+  <a href="/photoapp">Photo App</a>
 </nav>
 
 <hr />
