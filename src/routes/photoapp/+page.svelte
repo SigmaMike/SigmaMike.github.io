@@ -17,7 +17,7 @@ let images = [image,photo,picture];
             <img src={img} alt="flexbox
             rules">
         </div>
-    {/each}
+    {/each} 
         
 </div>
 
