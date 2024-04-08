@@ -9,6 +9,8 @@
   <a href="/memory">Memory</a>
   <a href="/telltale">Telltale</a>
 
+  <a href="/todo">Todo</a>
+
   <a
     target="_blank" rel="noreferrer"
     href="https://github.com/lisaviktorsson/lisaviktorsson.github.com"
