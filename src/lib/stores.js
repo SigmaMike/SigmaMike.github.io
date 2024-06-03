@@ -11,7 +11,7 @@ import { writable } from "svelte/store";
 */
 
 /* initialize the story_id to '1' if the story_id has not already been stored */
-const story_id = browser ? window?.localStorage.getItem('story_id') ?? "1" : "1"
+const story_id = browser ? window?.localStorage.getItem('chat') ?? " " : " "
 /* https://svelte.dev/tutorial/writable-stores */
 export const story_id_store = writable(story_id)
 
@@ -22,4 +22,20 @@ if (browser) {
                 window?.localStorage.setItem('story_id', value);
                 console.log(value)
         })
+}
+
+
+
+const chat = browser ? window?.localStorage.getItem('chat') ?? " " : " "
+/* https://svelte.dev/tutorial/writable-stores */
+export const chat_store = writable(chat)
+
+if (browser) {
+        /* https://svelte.dev/tutorial/auto-subscriptions */
+        chat_store.subscribe((value) => {
+                /* on changes to the story_id_store, update the localStorage in the browser. */
+                window?.localStorage.setItem('chat', value);
+                console.log(value)
+        })
+
 }

@@ -1,9 +1,17 @@
 ---
-title: Vecka 1
-date: "2024-03-01"
+title: inlägg 1
+date: "2024-05-06"
 keywords: ["adding tasks", "gallery"]
 ---
 
 Hello, I am _Post One._
 
 **Nice to meet you!**
+
+
+
+Det jag gjort hittils är att försöka bygga grunden till min hemsida. Jag har lagt in en startmeny för att göra ett 
+snyggt första intryck. Jag använde HTML-länkar <a> och rubrike för att skapa en navigering för min sida. Jag använda <img>-taggen och några  CSS-stila för att styla rubrikerna även om jag förmodligen kommer ändra/lägga till stylingen i senare tillfälle.
+
+
+Jag inkludera HTML-länkar <a>. Genom att använda HTML-länkar <a> och sätta deras href-attribut till olika sökvägar kan jag  ta mig fram på min hemsida genom att trycka på rubrikerna. 
